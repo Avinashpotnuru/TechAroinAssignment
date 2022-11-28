@@ -1,0 +1,32 @@
+.task3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.task3 ul{
+    
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.task3 ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    width: 27%;
+    /* border: red 2px solid ; */
+    height: 120px;
+    margin: 10px ;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 2px;
+
+}
